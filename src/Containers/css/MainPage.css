@@ -1,0 +1,17 @@
+.mainContainer{
+    background-image:url('../../images/3.jpg');
+    background-position:center;
+    background-repeat:no-repeat;
+    height:100%;
+    width:100%;
+    background-size: cover;
+    z-index:1;
+    position:absolute;    
+}
+    
+.content {
+    text-align: center;
+    color: white;
+    font-size: 45px;
+    margin-top: 130px;
+}
