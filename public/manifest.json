@@ -5,5 +5,15 @@
   "browser_action": {
       "default_popup": "index.html"
   },
+  "chrome_url_overrides":{
+    "newtab" : "index.html"
+  },
+  "content_scripts" : [
+    {
+      "matches": [ "http://axample.org/aoo/bar.html" ],
+      "css": ["/static/css/app.css", "/static/css/content.css"],
+      "js": ["/static/js/0.chunk.js", "/static/js/content.js"]
+    }
+ ],
   "content_security_policy": "script-src 'self' 'sha256-GgRxrVOKNdB4LrRsVPDSbzvfdV4UqglmviH9GoBJ5jk='; object-src 'self'"
 }
