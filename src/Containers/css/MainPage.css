@@ -1,17 +1,28 @@
 .mainContainer{
-    background-image:url('../../images/3.jpg');
+    /* background-image:url('../../images/5.jpg'); */
     background-position:center;
     background-repeat:no-repeat;
     height:100%;
     width:100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-size: cover;
     z-index:1;
     position:absolute;    
 }
+
+.clockContainer{
+    margin-top: -70px;
+}
     
 .content {
     text-align: center;
-    color: white;
-    font-size: 45px;
-    margin-top: 130px;
+    font-family: 'Droid Sans Mono', monospace;
+	font-weight: lighter;
+    letter-spacing: 0.1em;
+	color: white;
+    font-size: 50px;
+    margin-top: 20px;
 }
