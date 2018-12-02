@@ -19,7 +19,7 @@ class MainPage extends Component {
     constructor() {
         super();
         this.state = {
-            images: [Img1, Img2, Img3, Img4],
+            images: [Img1, Img2, Img3, Img4, Img5, Img6, Img7, Img8, Img9, Img10],
             current: 0,
             bgImg: ''
         }
