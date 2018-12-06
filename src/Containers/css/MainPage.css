@@ -14,11 +14,11 @@
 }
 
 .clockContainer{
-    margin-top: -170px;
+    margin-top: -150px;
 }
 
 .clock {
-    font-size: 550%;
+    font-size: 750%;
     letter-spacing: -2px;
     font-weight: 500;
     font-family: 'Droid Sans Mono', monospace;
@@ -28,8 +28,8 @@
     
 .date {
     margin-top: 20px;
-    font-size: 125%;
-    letter-spacing: -2px;
+    font-size: 175%;
+    letter-spacing: 2px;
     font-weight: 400;
     font-family: 'Droid Sans Mono', monospace;
     user-select: none;
@@ -42,7 +42,7 @@
 	font-weight: lighter;
     letter-spacing: 0.1em;
 	color: white;
-    font-size: 350%;
+    font-size: 450%;
     margin-top: 70px;
 }
 

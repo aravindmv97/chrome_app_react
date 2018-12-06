@@ -46,10 +46,10 @@ class MainPage extends Component {
                 <div style={{ backgroundImage: `url(${this.state.bgImg})` }} className="mainContainer">
                     <div className="clockContainer">
                         <div>
-                            <Clock className="clock" ticking={true} format={'HH:mm'} timezone={'IN'} />
+                            <Clock className="clock" ticking={true} format={'HH:mm'} timezone={'Asia/Kolkata'} />
                         </div>
                         <div>
-                            <Clock className="date" format={'dddd, MMMM Do YYYY'} ticking={true} timezone={'IN'} />
+                            <Clock className="date" format={'dddd, MMMM Do YYYY'} ticking={true} timezone={'Asia/Kolkata'} />
                         </div>
                     </div>
                     <div className="content">
