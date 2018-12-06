@@ -14,15 +14,45 @@
 }
 
 .clockContainer{
-    margin-top: -70px;
+    margin-top: -170px;
+}
+
+.clock {
+    font-size: 550%;
+    letter-spacing: -2px;
+    font-weight: 500;
+    font-family: 'Droid Sans Mono', monospace;
+    user-select: none;
+    color: white;
 }
     
+.date {
+    margin-top: 20px;
+    font-size: 125%;
+    letter-spacing: -2px;
+    font-weight: 400;
+    font-family: 'Droid Sans Mono', monospace;
+    user-select: none;
+    color: white;
+}
+
 .content {
     text-align: center;
     font-family: 'Droid Sans Mono', monospace;
 	font-weight: lighter;
     letter-spacing: 0.1em;
 	color: white;
-    font-size: 50px;
+    font-size: 350%;
+    margin-top: 70px;
+}
+
+.quote {
+    padding: 5px;
+    /* border-bottom: 2px solid white; */
+    text-align: center;
+    font-family: 'Droid Sans Mono', monospace;
+    letter-spacing: 0.1em;
+	color: white;
+    font-size: 35px;
     margin-top: 20px;
 }

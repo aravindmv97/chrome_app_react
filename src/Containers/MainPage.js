@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Clock from '../Components/Clock';
+import Clock from 'react-live-clock';
 
 import Img1 from '../images/0.jpg';
 import Img2 from '../images/1.jpg';
@@ -45,10 +45,18 @@ class MainPage extends Component {
             <div onClick={this.changeBg}>
                 <div style={{ backgroundImage: `url(${this.state.bgImg})` }} className="mainContainer">
                     <div className="clockContainer">
-                        <Clock />
+                        <div>
+                            <Clock className="clock" ticking={true} format={'HH:mm'} timezone={'IN'} />
+                        </div>
+                        <div>
+                            <Clock className="date" format={'dddd, MMMM Do YYYY'} ticking={true} timezone={'IN'} />
+                        </div>
                     </div>
                     <div className="content">
                         <span>Welcome, Aravind Manoharan</span>
+                    </div>
+                    <div className="quote">
+                        <span>"How can i do it?"</span>
                     </div>
                 </div>
             </div>
